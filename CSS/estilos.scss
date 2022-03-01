@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 
+@import "variables";
 
 
 *{
@@ -18,7 +19,7 @@
    /* se da color de marca empresarial*/
 ::selection {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    color: blue;
+    color: $colorempresarial;
 
 }
 
